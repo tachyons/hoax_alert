@@ -32,6 +32,8 @@ class DeviseCreateUsers < ActiveRecord::Migration
 
       ## Custom
       t.string :role
+      t.boolean :admin
+      t.boolean :moderator
 
       t.timestamps null: false
     end

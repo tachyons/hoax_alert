@@ -35,6 +35,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise'
 gem 'active_model_serializers'
 gem 'access-granted', '~> 1.0.0'
+gem 'activerecord-reputation-system'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'

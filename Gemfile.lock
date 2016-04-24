@@ -33,6 +33,7 @@ GEM
       activemodel (= 4.2.5.1)
       activesupport (= 4.2.5.1)
       arel (~> 6.0)
+    activerecord-reputation-system (3.0.1)
     activesupport (4.2.5.1)
       i18n (~> 0.7)
       json (~> 1.7, >= 1.7.7)
@@ -178,6 +179,7 @@ PLATFORMS
 DEPENDENCIES
   access-granted (~> 1.0.0)
   active_model_serializers
+  activerecord-reputation-system
   byebug
   coffee-rails (~> 4.1.0)
   devise
